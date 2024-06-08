@@ -49,7 +49,8 @@ def get_prediction(image_tensor):
         top_confidences = [probs[0, i].item() for i in indices[0]]
 
     print("Top-5 classes:")
-    for cls, conf in zip(top_classes, top_confidences):
+    zippedPairs = zip(top_classes, top_confidences)
+    for cls, conf in zippedPairs:
         print(f"{cls}: {conf:.2f}")
 
     # Get the predicted class
@@ -59,4 +60,5 @@ def get_prediction(image_tensor):
     predicted_class_name = class_labels[predicted_class.item()]
 
     print(f'The predicted class is: {predicted_class_name}')
-    return predicted_class_name
+
+    return zippedPairs,predicted_class_name

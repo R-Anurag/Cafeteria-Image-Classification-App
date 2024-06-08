@@ -21,13 +21,11 @@ def predict():
         if file is None or file.filename == "":
             return jsonify({'error': 'no file'})
         if not allowed_file(file.filename):
-            return jsonify({'error': 'format not supported'})
-
+            return jsonify({'error': 'format not supported'}
         try:
             img_bytes = file.read()
             tensor = transform_image(Image.open(io.BytesIO(img_bytes)))
             prediction = get_prediction(tensor)
-            data = {'prediction': prediction, 'class_name': prediction}
-            return jsonify(data)
+            return jsonify(prediction)
         except Exception as e:
             return jsonify({'error': f'{e}'})
