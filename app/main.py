@@ -21,7 +21,7 @@ def predict():
         if file is None or file.filename == "":
             return jsonify({'error': 'no file'})
         if not allowed_file(file.filename):
-            return jsonify({'error': 'format not supported'}
+            return jsonify({'error': 'format not supported'})
         try:
             img_bytes = file.read()
             tensor = transform_image(Image.open(io.BytesIO(img_bytes)))
