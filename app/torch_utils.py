@@ -30,7 +30,7 @@ def transform_image(image_bytes):
         transforms.ToTensor(),
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
-    input_tensor = preprocess(im)
+    input_tensor = preprocess(image_bytes)
     input_batch = input_tensor.unsqueeze(0)  # Add a batch dimension
     return input_batch
 
