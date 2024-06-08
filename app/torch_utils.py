@@ -5,13 +5,13 @@ from torchvision import transforms, models
 
 
 # Load the saved model
-model = models.resnet18(weights=models.ResNet50_Weights.DEFAULT)
+model = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
 model.fc = nn.Linear(model.fc.in_features, 1000)  # Adjust to match the original model's output units
 model.load_state_dict(torch.load('app/foodCourtMealClassification.pth'))
 model.eval()
 
 # Create a new model with the correct final layer
-new_model = models.resnet18(weights=models.ResNet50_Weights.DEFAULT)
+new_model = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
 new_model.fc = nn.Linear(new_model.fc.in_features, 7)  # Adjust to match the desired output units
 
 # Copy the weights and biases from the loaded model to the new model
