@@ -17,7 +17,7 @@ def allowed_file(filename):
 @app.route('/predict', methods=['POST'])
 def predict():
     if request.method == 'POST':
-        file = request.data.get('file')
+        file = request.files.get('file')
         if file is None or file.filename == "":
             return jsonify({'error': 'no file'})
         if not allowed_file(file.filename):
