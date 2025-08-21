@@ -4,7 +4,7 @@ This project trains a **ResNet-18** model using **PyTorch** to classify Indian f
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
     .
     ├── dataset/
