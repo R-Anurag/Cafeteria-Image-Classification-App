@@ -1,7 +1,11 @@
-# Android Frontend (Kivy-Based)
+# Android Frontend
 
-The **frontend of the Food-Court Meal Classifier App** is a **Kivy-based Android application** designed to capture food images, interact with device hardware, and present results in a **clear, interactive, and user-friendly interface**.  
-It acts as the bridge between the **ML backend** and the **end-user**, ensuring smooth camera access, storage handling, API interactions, and intuitive visualization.  
+**Kivy-based Android application** designed to capture food images, interact with device hardware, and present results in a **clear, interactive, and user-friendly interface**.  
+It acts as the bridge between the **ML backend** and the **end-user** for
+- smooth camera access
+- storage handling 
+- API interactions
+- intuitive visualization.  
 
 ---
 
