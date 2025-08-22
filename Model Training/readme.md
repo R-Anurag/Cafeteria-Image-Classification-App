@@ -1,4 +1,4 @@
-# 🍽️ Food Court Meal Classification with ResNet
+# 🍽️ Cafeteria Meal Classification with ResNet
 
 This project trains a **ResNet-18** model using **PyTorch** to classify Indian food items (e.g., *aloo paratha, idli, vada*). It includes data preparation, training, evaluation, saving the trained model, and performing inference on unseen images.
 
