@@ -95,7 +95,7 @@ During the development of this project, several challenges were encountered, lea
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend**: Python (Kivy, Matplotlib)  
 - **Backend**: PyTorch, Flask (Heroku)  
 - **APIs**: Nutritionix API  
@@ -103,7 +103,7 @@ During the development of this project, several challenges were encountered, lea
 
 ---
 
-## 🖼App Screenshots
+## App Screenshots
 
 | Loading Screen | Camera Screen | Prediction Screen |
 |----------------|---------------|-------------------|
@@ -122,5 +122,6 @@ During the development of this project, several challenges were encountered, lea
 - Support for restaurant menus, home-cooked meals, food delivery apps.  
 
 ---
+
 
 
