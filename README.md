@@ -47,7 +47,7 @@ The solution consists of three major components:
 
 ---
 
-## 🍛 Supported Meals
+## Supported Meals
 The model currently recognizes the following Indian dishes:  
 - Aloo Paratha  
 - Set Dosa  
@@ -61,7 +61,7 @@ The dataset can be easily extended to include more meals.
 
 ---
 
-## 🧪 Challenges and Research
+## Challenges and Research
 During the development of this project, several challenges were encountered, leading to valuable research and learning:  
 
 ### 🔹 Dataset Creation
@@ -103,21 +103,15 @@ During the development of this project, several challenges were encountered, lea
 
 ---
 
-## 🖼️ App Screenshots
+## 🖼App Screenshots
 
 | Loading Screen | Camera Screen | Prediction Screen |
 |----------------|---------------|-------------------|
-| <img width="191" height="398" alt="LoadingScreen" src="https://github.com/user-attachments/assets/336df945-955c-4b05-b32f-59c711164ed8" />
- |<img width="199" height="398" alt="cameraScreen" src="https://github.com/user-attachments/assets/755a9245-5155-4174-ba1a-44966bc79fb4" />
-  | <img width="191" height="398" alt="PredictionScreen" src="https://github.com/user-attachments/assets/71cb0fa6-1f54-45a2-9c99-f06faee25b74" />
-  |
+| <img width="191" height="398" alt="LoadingScreen" src="https://github.com/user-attachments/assets/336df945-955c-4b05-b32f-59c711164ed8" /> | <img width="199" height="398" alt="cameraScreen" src="https://github.com/user-attachments/assets/755a9245-5155-4174-ba1a-44966bc79fb4" /> | <img width="191" height="398" alt="PredictionScreen" src="https://github.com/user-attachments/assets/71cb0fa6-1f54-45a2-9c99-f06faee25b74" /> |
 
 | Nutrition Info Screen | Internet Error Screen | Server Error Screen |
 |------------------------|-----------------------|---------------------|
-| <img width="200" height="398" alt="nutritionalInfoScreen" src="https://github.com/user-attachments/assets/78b7fb5e-3e27-4d5e-bf4c-b88127e8ecfc" />
- | <img width="195" height="398" alt="internetErrorScreen" src="https://github.com/user-attachments/assets/c421c071-ce48-4c44-b501-02efca721fe7" />
- |  <img width="192" height="398" alt="serverErrorScreen" src="https://github.com/user-attachments/assets/2cb5110c-da51-4550-a28d-8fac1fc15f93" />
-|
+| <img width="200" height="398" alt="nutritionalInfoScreen" src="https://github.com/user-attachments/assets/78b7fb5e-3e27-4d5e-bf4c-b88127e8ecfc" /> | <img width="195" height="398" alt="internetErrorScreen" src="https://github.com/user-attachments/assets/c421c071-ce48-4c44-b501-02efca721fe7" /> | <img width="192" height="398" alt="serverErrorScreen" src="https://github.com/user-attachments/assets/2cb5110c-da51-4550-a28d-8fac1fc15f93" /> |
 
 ---
 
@@ -128,4 +122,5 @@ During the development of this project, several challenges were encountered, lea
 - Support for restaurant menus, home-cooked meals, food delivery apps.  
 
 ---
+
 
