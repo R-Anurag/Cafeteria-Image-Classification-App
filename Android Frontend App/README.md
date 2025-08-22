@@ -27,7 +27,7 @@ It acts as the bridge between the **ML backend** and the **end-user** for
 
 ---
 
-## ⚙️ Android Hardware Integration
+## Android Hardware Integration
 The app integrates deeply with Android hardware using `pyjnius` and helper modules.  
 
 ### 📷 Camera Access (CameraX via `camerax_provider`)
