@@ -30,14 +30,12 @@ It acts as the bridge between the **ML backend** and the **end-user** for
 ## Android Hardware Integration
 The app integrates deeply with Android hardware using `pyjnius` and helper modules.  
 
-### 📷 Camera Access (CameraX via `camerax_provider`)
+### Camera Access (CameraX via `camerax_provider`)
 - Uses **CameraX API** through [camera4kivy](https://github.com/Android-for-Python/camera4kivy).  
 - Provides:
   - Real-time camera preview inside Kivy widgets.  
   - Captures images and forwards them for ML predictions.  
   - Handles switching between device cameras.  
-
----
 
 ### Storage Management (`SharedStorage`)
 - Interfaces with **Android MediaStore** to save/retrieve files.  
@@ -47,16 +45,12 @@ The app integrates deeply with Android hardware using `pyjnius` and helper modul
   - Importing shared files into cache for ML processing.  
   - Safe file deletion/overwriting.  
 
----
-
 ### Runtime Permissions (`AndroidPermissions`)
 - Dynamically requests and manages runtime permissions:
   - `CAMERA` → Required for scanning meals.  
   - `RECORD_AUDIO` → Reserved for extended features.  
   - `WRITE_EXTERNAL_STORAGE` / `MANAGE_EXTERNAL_STORAGE` → For saving results & caching.  
 - Provides custom dialogs when users deny permissions, ensuring the app fails gracefully.  
-
----
 
 ### File Chooser (`Chooser`)
 - Implements **Android’s native file picker** using `Intent.ACTION_GET_CONTENT`.  
