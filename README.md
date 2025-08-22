@@ -1,4 +1,4 @@
-# 🍴 Food-Court Meal Classifier App  
+# 🍴 Image Classifier App  
 
 An **Android application** powered by a **PyTorch-based image classification model** hosted on Heroku.  
 The app detects Indian cafeteria meals from photos, retrieves **nutritional information** using the **Nutritionix API**, and even estimates **calorie burn from exercises**.  
@@ -122,6 +122,7 @@ During the development of this project, several challenges were encountered, lea
 - Support for restaurant menus, home-cooked meals, food delivery apps.  
 
 ---
+
 
 
 
