@@ -27,10 +27,6 @@ The project addresses the following challenges:
 - **Exercise Calorie Burn** → Calculate calories burned by activities to promote balanced choices.  
 - **User-Friendly Interface** → Android frontend built with Kivy.  
 
-**Dataset Challenge**:  
-No existing Indian meal dataset was available.  
-➡️ Dataset was generated using `bing-image-downloader`, scraping ~100 images per dish across **7 food classes**.  
-
 ---
 
 ## Overview
@@ -132,3 +128,4 @@ During the development of this project, several challenges were encountered, lea
 - Support for restaurant menus, home-cooked meals, food delivery apps.  
 
 ---
+
